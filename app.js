@@ -1,5 +1,5 @@
-const SUPABASE_URL = "https://xxxxxxxx.supabase.co";
-const SUPABASE_KEY = "ey..."; // anon public key buraya
+const SUPABASE_URL = "https://mpatvhzhxvuxvovoaqjo.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1wYXR2aHpoeHZ1eHZvdm9hcWpvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE0ODU0NDUsImV4cCI6MjA2NzA2MTQ0NX0.-E8yqGxvbFqwevgHxEEyQ00fTjByWtZTC-CB9kZ9zMI"; // anon public key buraya
 
 const headers = {
   "apikey": SUPABASE_KEY,
