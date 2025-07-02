@@ -1,3 +1,11 @@
+const SUPABASE_URL = "https://xxxxxxxx.supabase.co";
+const SUPABASE_KEY = "ey..."; // anon public key buraya
+
+const headers = {
+  "apikey": SUPABASE_KEY,
+  "Authorization": `Bearer ${SUPABASE_KEY}`,
+  "Content-Type": "application/json"
+};
 function selectType(type) {
   const form = document.getElementById("kayitFormu");
   form.style.display = "block";
